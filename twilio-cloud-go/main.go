@@ -26,7 +26,7 @@ func Main(params map[string]interface{}) map[string]interface{} {
 		urlStr := "https://api.twilio.com/2010-04-01/Accounts/" + accountSid + "/Messages.json"
 
 		// text message being sent to recipient
-		textMsg := "New pull request assignee"
+		textMsg := "An alert received from IBM - Geogra. Point-3 recorded low water level. (07/07/2021 - 5:10am BST)"
 
 		// package the data values
 		msgData := url.Values{}
